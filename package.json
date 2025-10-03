@@ -1,10 +1,13 @@
 {
   "name": "modern-elegant-portfolio-website",
   "version": "1.0.0",
-  "description": "This is a code bundle for Modern Elegant Portfolio Website. The original project is available at https://www.figma.com/design/Lonlj99nnGC7eb3yJRwxy3/Modern-Elegant-Portfolio-Website.",
+  "description": "Modern Elegant Portfolio Website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx vite",
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "npx vite preview"
   },
   "repository": {
     "type": "git",
@@ -13,17 +16,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Shivayan09/nova1.1/issues"
   },
   "homepage": "https://github.com/Shivayan09/nova1.1#readme",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react-swc": "^4.1.0",
-    "vite": "^7.1.9"
+    "vite": "^7.1.9",
+    "@vitejs/plugin-react-swc": "^4.1.0"
   }
 }
