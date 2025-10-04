@@ -1,35 +1,37 @@
 {
-  "name": "nova1.1",
-  "version": "1.0.0",
-  "description": "Modern Elegant Portfolio Website",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shivayan09/nova1.1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shivayan09/nova1.1/issues"
-  },
-  "homepage": "https://github.com/Shivayan09/nova1.1#readme",
-  "engines": {
-    "node": "20.x"
-  },
-  "dependencies": {
-    "lucide-react": "^0.544.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react-swc": "^4.1.0",
-    "vite": "^7.1.9"
-  }
+    "name":  "nova1.1",
+    "version":  "1.0.0",
+    "description":  "Modern Elegant Portfolio Website",
+    "main":  "index.js",
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite",
+                    "build":  "npx vite build",
+                    "preview":  "vite preview"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/Shivayan09/nova1.1.git"
+                   },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "bugs":  {
+                 "url":  "https://github.com/Shivayan09/nova1.1/issues"
+             },
+    "homepage":  "https://github.com/Shivayan09/nova1.1#readme",
+    "engines":  {
+                    "node":  "20.x"
+                },
+    "dependencies":  {
+                         "lucide-react":  "^0.544.0",
+                         "react":  "^18.3.1",
+                         "react-dom":  "^18.3.1"
+                     },
+    "devDependencies":  {
+                            "@vitejs/plugin-react-swc":  "^4.1.0",
+                            "vite":  "^7.1.9"
+                        }
 }
